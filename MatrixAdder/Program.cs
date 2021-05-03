@@ -12,7 +12,7 @@ namespace MatrixAdder
             adder.SumMatrix();
 
             var generator = new MatrixGenerator();
-            generator.WriteRandomMatricesToFile(4, 6);
+            generator.RunOperation(4, 6);
         }
     }
 }
