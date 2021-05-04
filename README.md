@@ -1,5 +1,7 @@
 # Реализация паттерна "Адаптер"
 
+[![Tests](https://github.com/TimeToRave/AdapterPattern/actions/workflows/Unit%20testing.yml/badge.svg)](https://github.com/TimeToRave/AdapterPattern/actions/workflows/Unit%20testing.yml)
+
 ## Цель
 
 Реализовать две независимых программы:
