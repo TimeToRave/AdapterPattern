@@ -1,0 +1,27 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1b949683_002Dcceb_002D46a9_002D9c16_002D067972d78244/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="OperateMatrices_IncorrectMatricesSizes" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixAdderAdapterTests.OperateMatrices_IncorrectMatricesSizes&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=56cd8ec6_002Df1b7_002D4c8c_002D9509_002D5e5e477e4848/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="OperateMatrices_IncorrectMatricesSizes #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;841C8763-3447-4ABF-ADA2-A0D81D2229B7/f:MatrixAdderAdapterTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;841C8763-3447-4ABF-ADA2-A0D81D2229B7/f:MatrixAdderTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;841C8763-3447-4ABF-ADA2-A0D81D2229B7/f:MatrixGeneratorTests.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;ProjectFile&gt;841C8763-3447-4ABF-ADA2-A0D81D2229B7/f:MatrixTests.cs&lt;/ProjectFile&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8cbad497_002D2afa_002D4a0c_002D842d_002Dbbc18af969b0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="SummAllMatrices_NormalCase" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.Tests.SummAllMatrices_NormalCase&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.Tests.SummAllMatrices_ZeroMatrces&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.Tests.SummAllMatrices_MatricesWithNegativeElements&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixGeneratorTests.GenerateMatrix_GenerateBySize&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixGeneratorTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixAdderAdapterTests.OperateMatrices_TwoNormalMatrices&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixAdderAdapterTests.OperateMatrices_TwoZeroMatrices&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::841C8763-3447-4ABF-ADA2-A0D81D2229B7::net5.0::MatrixAdderTests.MatrixAdderAdapterTests.OperateMatrices_IncorrectMatricesSizes&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

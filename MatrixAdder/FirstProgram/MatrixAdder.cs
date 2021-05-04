@@ -5,7 +5,7 @@ namespace MatrixAdder
     public class MatrixAdder
     {
         /// <summary>
-        /// Считывает матрицы, и записывает их сумму в дргуой файл
+        /// Считывает матрицы, и записывает их сумму в другой файл
         /// </summary>
         public void SumMatrix()
         {

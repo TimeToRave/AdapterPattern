@@ -100,7 +100,7 @@ namespace MatrixAdder
 		}
 
 		/// <summary>
-		/// Метод для сравнивания двух метриц
+		/// Метод для сравнивания двух матриц
 		/// </summary>
 		/// <param name="obj"></param>
 		/// <returns></returns>
@@ -122,7 +122,7 @@ namespace MatrixAdder
 		}
 
 		/// <summary>
-		/// Перепоределение метода
+		/// Переопределение метода
 		/// </summary>
 		/// <returns>Хэш объекта</returns>
 		public override int GetHashCode()
