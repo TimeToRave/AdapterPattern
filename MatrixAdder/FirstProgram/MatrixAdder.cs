@@ -9,13 +9,19 @@ namespace MatrixAdder
         /// </summary>
         public void SumMatrix()
         {
-            Matrix[] matrices = ReadMatrixFromFile()
-                .Select(x => new Matrix(x)).ToArray();
+            var matrices = ReadMatricesFromFile();
             
             Matrix result = SummAllMatrices(matrices);
             WriteToFile(result);
         }
-    
+
+        private static Matrix[] ReadMatricesFromFile()
+        {
+            Matrix[] matrices = ReadMatrixFromFile()
+                .Select(x => new Matrix(x)).ToArray();
+            return matrices;
+        }
+
         /// <summary>
         /// Производит подсчет всех считанных матриц
         /// </summary>
