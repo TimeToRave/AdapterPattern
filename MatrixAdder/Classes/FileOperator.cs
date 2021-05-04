@@ -19,7 +19,7 @@ namespace MatrixAdder
             {
                 return File.ReadAllText(filePath);
             }
-            catch (FileNotFoundException exception)
+            catch (FileNotFoundException)
             {
                 Console.WriteLine($"{filePath} file doesn't exists");
                 return string.Empty;
@@ -38,7 +38,7 @@ namespace MatrixAdder
             {
                 File.WriteAllText(filePath, content);
             }
-            catch (FileNotFoundException exception)
+            catch (FileNotFoundException)
             {
                 Console.WriteLine($"{filePath} file doesn't exists");
             }
