@@ -15,7 +15,7 @@ namespace MatrixAdder
             WriteToFile(result);
         }
 
-        private static Matrix[] ReadMatricesFromFile()
+        private Matrix[] ReadMatricesFromFile()
         {
             Matrix[] matrices = ReadMatrixFromFile()
                 .Select(x => new Matrix(x)).ToArray();
@@ -41,7 +41,7 @@ namespace MatrixAdder
         /// Считывает досутпные матрицы из файла
         /// </summary>
         /// <returns></returns>
-        public static string[] ReadMatrixFromFile()
+        public string[] ReadMatrixFromFile()
         {
             FileOperator fileOperator = new FileOperator();
             string fileContent = fileOperator.ReadTextFromFile("F0.txt");
@@ -53,7 +53,7 @@ namespace MatrixAdder
         /// Записывает переданную матрицу в файл
         /// </summary>
         /// <param name="result">Матрица на записьь в файл</param>
-        public void WriteToFile(Matrix result)
+        private void WriteToFile(Matrix result)
         {
             FileOperator fileOperator = new FileOperator();
             fileOperator.WriteTextToFile("F1.txt", result.ToString());
